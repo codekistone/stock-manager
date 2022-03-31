@@ -1,0 +1,42 @@
+.stocktable {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto 60px;
+  max-width: 600px;
+  position: relative;
+}
+
+.stocktable .table_title {
+  text-align: left;
+  margin-bottom: 5px;
+  padding-left: 3%;
+}
+
+.stocktable .table {
+  width: 100%;
+}
+.stocktable .tr {
+  display: flex;
+  overflow-x: hidden;
+}
+.stocktable .thead {
+  text-align: center;
+  padding: 5px 0px;
+  color: gray;
+  border-bottom: thin solid #333;
+}
+
+.stocktable .stock_name {
+  width: 40%;
+}
+.stocktable .stock_price {
+  width: 23%;
+}
+.stocktable .stock_quantity {
+  width: 15%;
+}
+.stocktable .stock_indate {
+  width: 22%;
+}

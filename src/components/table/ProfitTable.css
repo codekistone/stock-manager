@@ -1,0 +1,25 @@
+.profittable {
+  width: 100%;
+  max-width: 600px;
+  margin: 30px auto 50px;
+  background-color: #222;
+  border: solid #333;
+  border-width: thin 0;
+  box-sizing: border-box;
+}
+.profittable .tr {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.profittable .th {
+  width: 30%;
+  padding-left: 3%;
+}
+
+.profittable .td {
+  width: 30%;
+  text-align: right;
+}
